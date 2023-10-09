@@ -1,0 +1,7 @@
+C:\Users\Kevin\source\repos\helpme\bin\helpme.dll.config
+C:\Users\Kevin\source\repos\helpme\bin\helpme.dll
+C:\Users\Kevin\source\repos\helpme\bin\helpme.pdb
+C:\Users\Kevin\source\repos\helpme\obj\Debug\helpme.csproj.AssemblyReference.cache
+C:\Users\Kevin\source\repos\helpme\obj\Debug\helpme.csproj.CoreCompileInputs.cache
+C:\Users\Kevin\source\repos\helpme\obj\Debug\helpme.dll
+C:\Users\Kevin\source\repos\helpme\obj\Debug\helpme.pdb
