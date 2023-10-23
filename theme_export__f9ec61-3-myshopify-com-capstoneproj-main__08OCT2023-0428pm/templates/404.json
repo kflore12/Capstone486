@@ -1,1 +1,16 @@
-{"sections":{"main":{"type":"main-404","settings":{}}},"order":["main"]}
+{
+    // The "sections" key contains an object that defines multiple possible sections.
+    "sections": {
+        // Within "sections", there is a key named "main" which has an object value.
+        "main": {
+            // This "type" key defines the type of the section. In this case, it's "main-404".
+            "type": "main-404",
+            // The "settings" key contains an object. Currently, it's empty, but it could potentially hold configuration or settings for this section.
+            "settings": {}
+        }
+    },
+    // The "order" key contains an array, indicating the order in which sections should appear or be processed.
+    "order": [
+        "main" // Currently, it only has one entry "main", which means that the "main" section should be processed first.
+    ]
+}
