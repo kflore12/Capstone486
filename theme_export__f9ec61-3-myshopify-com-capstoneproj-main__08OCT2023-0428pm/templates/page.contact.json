@@ -1,1 +1,41 @@
-{"sections":{"main":{"type":"main-page","settings":{"padding_top":36,"padding_bottom":36}},"form":{"type":"contact-form","settings":{"heading":"","heading_size":"h1","color_scheme":"background-1","padding_top":36,"padding_bottom":36}}},"order":["main","form"]}
+{
+    // The "sections" key contains an object that defines multiple possible sections.
+    "sections": {
+        // The "main" key corresponds to the main section of the webpage or app.
+        "main": {
+            // The "type" key specifies the type or purpose of the section. Here, it's identified as "main-page".
+            "type": "main-page",
+            // The "settings" key contains configurations specific to the "main" section.
+            "settings": {
+                // "padding_top" defines the top padding for this section. It is set to 36 units (could be pixels, for instance).
+                "padding_top": 36,
+                // "padding_bottom" defines the bottom padding for this section, also set to 36 units.
+                "padding_bottom": 36
+            }
+        },
+        // The "form" key corresponds to a section intended to contain a form, possibly for user input.
+        "form": {
+            // The "type" key for this section specifies that it's a "contact-form".
+            "type": "contact-form",
+            // The "settings" key contains configurations specific to the "form" section.
+            "settings": {
+                // "heading" is intended for the form's title or headline. Currently, it's empty.
+                "heading": "",
+                // "heading_size" specifies the size or weight of the heading. Here, it's set to "h1", which typically means a primary heading.
+                "heading_size": "h1",
+                // "color_scheme" defines the color palette or theme for the form section. Here, it's set to "background-1".
+                "color_scheme": "background-1",
+                // "padding_top" and "padding_bottom" define the top and bottom paddings for this section, both set to 36 units.
+                "padding_top": 36,
+                "padding_bottom": 36
+            }
+        }
+    },
+    // The "order" key contains an array, indicating the sequence in which sections should appear or be processed.
+    "order": [
+        // The "main" section should be processed or displayed first.
+        "main",
+        // Followed by the "form" section.
+        "form"
+    ]
+}
